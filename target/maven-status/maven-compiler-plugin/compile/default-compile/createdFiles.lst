@@ -1,0 +1,11 @@
+entity/Query.class
+services/DocumentParser.class
+services/CustomComparator.class
+application/TastySearchConfiguration.class
+application/TastySearchApplication.class
+services/TastySearchService.class
+resources/TastySearchResource.class
+request/InputQuery.class
+application/TastySearch.class
+services/DocumentProcessor.class
+entity/Document.class

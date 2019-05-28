@@ -1,0 +1,13 @@
+server:
+  type: simple
+  applicationContextPath: /tasty-search
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 9000
+#  applicationConnectors:
+#      - type: http
+#        port: 9000
+#  adminConnectors:
+#      - type: http
+#        port: 9001
