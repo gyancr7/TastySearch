@@ -34,5 +34,5 @@ Command to run the jar:
 ```java -jar java -jar TastySearch-1.0-SNAPSHOT.jar server /path_to_congiy.yaml file```
 
 Once the jar is running API can be hit via Postman or browser at: 
-```http://localhost:9000/tasty-search/v1/get-top-k-documents```
+```http://localhost:9000/tasty-search/v1/get-top-k-documents```.
 Result: Top ```k``` documents based on the score calculated as per the given requirement
