@@ -31,7 +31,7 @@ curl -X POST \
 
 The jar is present inside the target folder of the repo.
 Command to run the jar:
-```java -jar java -jar TastySearch-1.0-SNAPSHOT.jar server /path_to_congiy.yaml file```
+```java -jar TastySearch-1.0-SNAPSHOT.jar server /path_to_config.yaml file```
 
 Once the jar is running API can be hit via Postman or browser at: 
 ```http://localhost:9000/tasty-search/v1/get-top-k-documents```.
