@@ -15,7 +15,7 @@ Parameters for POST API:
 }
 ```
 
-Api to get top ```k``` documents as per requireement for given query:
+Api to get top ```k``` documents as per requirement for given query:
 ```
 curl -X POST \
   http://localhost:9000/tasty-search/v1/get-top-k-documents \
@@ -35,4 +35,5 @@ Command to run the jar:
 
 Once the jar is running API can be hit via Postman or browser at: 
 ```http://localhost:9000/tasty-search/v1/get-top-k-documents```.
+
 Result: Top ```k``` documents based on the score calculated as per the given requirement
